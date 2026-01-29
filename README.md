@@ -9,7 +9,7 @@ The goal of the project is to build a binary classifier which, given the first�
 ```text
 cascade-prediction-networks/
 ├── data/
-│   └── sample_weibo.txt      # small example dataset (for sanity checks)
+│   └── sample_weibo.txt     # small example dataset (for sanity checks)
 ├── requirements.txt         # Python dependencies
 ├── README.md                # this document
 └── src/
