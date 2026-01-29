@@ -9,19 +9,19 @@ The goal of the project is to build a binary classifier which, given the first�
 ```text
 cascade-prediction-networks/
 ├── data/
-    └── sample_weibo.txt # small example dataset (for sanity checks)
-├── src/
-    └── cascade.py # simple container class for cascades
-    └── parse_data.py # parser for the Weibo dataset
-    └── build_tree.py # utilities for building cascade trees and computing depths
-    └── prefix.py # functions for generating k‑prefix cascades
-    └── features.py # temporal and structural feature extraction
-    └── labels.py # construction of binary labels using the 2k rule
-    └── models.py # training and prediction routines
-    └── evaluation.py # metrics and evaluation utilities
-    └── main.py # orchestrates the full pipeline from raw data to results
-├── requirements.txt # Python dependencies
-├── README.md # this document
+│   └── sample_weibo.txt      # small example dataset (for sanity checks)
+├── requirements.txt         # Python dependencies
+├── README.md                # this document
+└── src/
+    ├── cascade.py           # simple container class for cascades
+    ├── parse_data.py        # parser for the Weibo dataset
+    ├── build_tree.py        # utilities for building cascade trees and computing depths
+    ├── prefix.py            # functions for generating k‑prefix cascades
+    ├── features.py          # temporal and structural feature extraction
+    ├── labels.py            # construction of binary labels using the 2k rule
+    ├── models.py            # training and prediction routines
+    ├── evaluation.py        # metrics and evaluation utilities
+    └── main.py              # orchestrates the full pipeline from raw data to results
 ```
 
 Each module is independent but designed to work together.  You can run the entire pipeline using the **main** script.
