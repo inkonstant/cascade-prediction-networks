@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env*/
+.venv/
+
+# =========================
+# PyCharm / JetBrains
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+
+# =========================
+# Data & results (IMPORTANT)
+# =========================
+# Ignore large datasets & generated outputs
+data/*.txt
+data/*.csv
+data/*.tsv
+outputs/
+
+# Keep sample file tracked
+!data/sample_weibo.txt
+!data/weibo_dataset.txt
+
+# =========================
+# ML artifacts
+# =========================
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
