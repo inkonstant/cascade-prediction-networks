@@ -35,8 +35,8 @@ class Cascade:
     """Container for cascade information.
 
     A `Cascade` stores the ID of the message, the ID of the root user, the
-    publish time, and a list of retweet events.  Each event knows its retweet
-    time relative to the publish time and the parent user from whom the retweet
+    publishing time, and a list of retweet events.  Each event knows its retweet
+    time relative to the publishing time and the parent user from whom the retweet
     happened.  The order of events is not guaranteed; call `sort_events()` to
     sort them chronologically.
     """

@@ -1,3 +1,3 @@
-"""Module initialiser for the cascade prediction project."""
+"""Module initializer for the cascade prediction project."""
 
 __all__ = []

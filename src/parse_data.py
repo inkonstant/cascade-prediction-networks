@@ -6,7 +6,7 @@ The expected input format is tab‑separated with the following columns:
 
 `retweet_paths` is a space‑separated list of entries of the form
 `u1/u2/…/un:Δt` where `u1` is the root of the diffusion, `un` is the user
-who retweeted, and `Δt` is the elapsed time in seconds since the publish
+who retweeted, and `Δt` is the elapsed time in seconds since the publishing
 time when that retweet occurred.  Intermediate user IDs reflect the
 path through which the message was propagated.
 
