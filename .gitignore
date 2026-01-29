@@ -45,7 +45,6 @@ outputs/
 
 # Keep sample file tracked
 !data/sample_weibo.txt
-!data/weibo_dataset.txt
 
 # =========================
 # ML artifacts
